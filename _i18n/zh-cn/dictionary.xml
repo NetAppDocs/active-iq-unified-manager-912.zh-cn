@@ -1543,7 +1543,6 @@
   <block id="5a5094f086cece37d0843a7f44251cce" category="paragraph">如果 Unified Manager 安装在 Linux 和 Windows 服务器上，则 MySQL 数据库转储是默认的备份机制。但是、如果Unified Manager正在管理大量集群和节点、或者您的MySQL备份需要数小时才能完成、则可以使用Snapshot副本进行备份。此功能可在Red Hat Enterprise Linux、CentOS Linux系统和Windows上使用。</block>
   <block id="33fc247e555720879316017b076f2029" category="paragraph">数据库转储备份由备份目录中的一个文件和数据库存储库目录中的一个或多个文件组成。备份目录中的文件非常小，因为它仅包含指向重新创建备份所需的数据库存储库目录中的文件的指针。</block>
   <block id="2f3b4c9172b561f3e884b4272c129fb6" category="paragraph">首次生成数据库备份时，将在备份目录中创建一个文件，并在数据库存储库目录中创建一个完整备份文件。下次生成备份时，将在备份目录中创建一个文件，并在数据库存储库目录中创建一个增量备份文件，其中包含与完整备份文件的差异。此过程将在您创建其他备份时继续进行，直到达到最大保留设置，如下图所示。</block>
-  <block id="e7fbcbeb2e1e5f4c9bede03c1fbb8e41" category="image-alt">数据库备份</block>
   <block id="efbe49949ffa2f8a16f02f4ea7adc56a" category="paragraph">请勿重命名或删除这两个目录中的任何备份文件，否则任何后续还原操作将失败。</block>
   <block id="cb923ec5ab7e1a642e7b3ba98abfc4f1" category="paragraph">如果您将备份文件写入本地系统，则应启动一个将备份文件复制到远程位置的过程，以便在系统问题描述需要完全还原时可以使用这些文件。</block>
   <block id="c48f8fd51b32d584ba11d9662e34349b" category="paragraph">在开始备份操作之前， Active IQ Unified Manager 会执行完整性检查，以验证所有必需的备份文件和备份目录是否存在且可写。它还会检查系统上是否有足够的空间来创建备份文件。</block>
@@ -11905,4 +11904,5 @@
   <block id="7f65dca42f43809665db6567fcfbc285" category="list-text">操作系统：Red Hat Enterprise Linux 7.x及8.0至8.6版，或基于x86_64架构的CentOS 7.x版，使用操作系统安装程序的*软件选择*选项中的“带GUI的服务器”基础环境安装</block>
   <block id="e224c231f2865f8b120f3d2845da5134" category="paragraph">如果先前在 Red Hat Enterprise Linux 7.x 系统上安装了 Unified Manager ，但需要升级到 Red Hat Enterprise Linux 8.x ，则必须按照本主题中列出的过程之一进行操作。在这两种情况下，都必须在 Red Hat Enterprise Linux 7.x 系统上创建 Unified Manager 的备份，然后将备份还原到 Red Hat Enterprise Linux 8.x 系统。请注意、支持的Red Hat Enterprise Linux版本为8.0到8.6。</block>
   <block id="06d1a3f5a2c1fab663374946419b7a46" category="paragraph">请参见 <block ref="9a98c86d8dafdd1ad792c075346a9c0b" category="inline-link-macro-rx"></block> 如果需要查看备份和还原过程的详细说明、</block>
+  <block id="fb433a9b7897073e3d41673a4e2e35a5" category="image-alt">备份还原</block>
 </blocks>
