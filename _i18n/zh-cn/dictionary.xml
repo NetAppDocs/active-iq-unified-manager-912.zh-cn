@@ -11774,7 +11774,6 @@
   <block id="fee984743f91b24dec86f77ceb6dd622" category="summary">您可以使用集群设置页面查看集群清单。您可以查看有关集群的详细信息，例如集群名称或 IP 地址以及通信状态。</block>
   <block id="ee45945ca017877dfd40f7584086a95c" category="doc">查看受监控集群的列表</block>
   <block id="4fc6414dc545bf81af50810b29da761c" category="list-text">在左侧导航窗格中，单击 * 存储管理 * &gt; * 集群设置 * 。+将显示Unified Manager管理的存储环境中的所有集群。集群列表按收集状态严重性级别列进行排序。您可以单击列标题，按不同列对集群进行排序。</block>
-  <block id="91d9102f2b20d2487525cb47bf7d79a5" category="summary">Active IQ Unified Manager ， AIQUM 文档， UM 文档</block>
   <block id="4a58c6ba2ac7cf0f2cd001d223b14e50" category="doc">Active IQ Unified Manager 文档</block>
   <block id="c43f49bfb2a365defe9da104160918a2" category="sidebar">通过Active IQ Unified Manager (Unified Manager、以前称为OnCommand Unified Manager)、您可以从一个界面监控和管理ONTAP 存储系统的运行状况和性能。本文档库包含9.12版的信息。</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
@@ -11828,7 +11827,6 @@
   <block id="ede607b26fd609858d7be7ff1e138cb0" category="sidebar">Active IQ Unified Manager 9.9或更早版本的文档</block>
   <block id="ef4b00aa7f2b133711aca050ace6508d" category="sidebar">Active IQ Unified Manager 9.12文档</block>
   <block id="f4a82a67b559f4b99078d99e20c3f730" category="sidebar">Active IQ Unified Manager 9.11的文档</block>
-  <block id="85f73dd16ea214346164b0deea26773b" category="sidebar">Unified Manager</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">生成自定义报告</block>
   <block id="9304b0fee761c30cb0f91f15de511efc" category="sidebar">创建报告以查看接近全满的聚合</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">监控和管理集群运行状况</block>
@@ -11909,4 +11907,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="db99ce16b5159248c143ce69889e1798" category="sidebar">Active IQ Unified Manager 9.12文档。</block>
 </blocks>
