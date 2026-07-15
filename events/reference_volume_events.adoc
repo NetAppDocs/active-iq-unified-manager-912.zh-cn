@@ -17,6 +17,7 @@ summary: 卷事件提供了有关卷状态的信息，可用于监控潜在问�
 
 
 
+[[impact-area-availability]]
 == 影响区域：可用性
 
 |===
@@ -145,6 +146,7 @@ Volume
 |===
 
 
+[[impact-area-capacity]]
 == 影响区域：容量
 
 |===
@@ -449,6 +451,7 @@ Volume
 |===
 
 
+[[impact-area-configuration]]
 == 影响区域：配置
 
 |===
@@ -489,6 +492,7 @@ Volume
 |===
 
 
+[[impact-area-performance]]
 == 影响区域：性能
 
 |===
@@ -782,6 +786,7 @@ Volume
 |===
 
 
+[[impact-area-security]]
 == 影响区域：安全性
 
 |===
@@ -899,6 +904,7 @@ Volume
 |===
 
 
+[[impact-area-data-protection]]
 == 影响区域：数据保护
 
 |===
